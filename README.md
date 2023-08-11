@@ -9,12 +9,9 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 - The challenge is to build out this preview card component and get it looking as close to the design as possible.
 
-### Screenshot
-
-
 ### Links
 
-- Live Site URL: [Github live page]()
+- Live Site URL: [Github live page](https://anano24.github.io/Skilled-e-learning-landing-page/)
 
 ## My process
 
