@@ -1,0 +1,246 @@
+/* Plus Jakarta Sans*/
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Kumbh+Sans:wght@400;700&family=Outfit:wght@300;400;600&family=Plus+Jakarta+Sans:wght@500;700;800&family=Red+Hat+Display:wght@700&display=swap');
+
+body {
+    font-family: 'Plus Jakarta Sans';
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    max-width: 100%;
+    font-size: 100%;
+}
+header, .footer, section {
+    padding: 4.3% 4.3% 0% 4.3%;
+}
+section, .footer, .main, .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.top-btn {
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 28px;
+    color: white;
+    text-align: center;
+    background-color: #13183F;
+    width: 140px;
+    height: 48px;
+    border-radius: 28px;
+    border-style: none;
+    text-decoration: none;
+}
+.top-btn:hover {
+    background-color: #666CA3;
+    cursor: pointer;
+}
+h1 {
+    font-size: 2.5em;
+    font-weight: 800;
+    line-height: 50px;
+    text-align: left;
+    color: #13183F;
+    margin: 38px 0px 26px 0px;
+}
+.main-txt {
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    color: #83869A;
+}
+.start-btn {
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    color: white;
+    width: 167px;
+    height: 56px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31.5px;
+    border-style: none;
+    margin: 24px 0px 28px 0px;
+}
+.start-btn:hover {
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+    cursor: pointer;
+
+}
+.mobile-hero-img {
+    width: 100%;
+}
+section {
+    padding-top: 0%;
+}
+.box {
+    width: 100%;
+    height: 259px;
+    background-color: white;
+    box-shadow: 0px 25px 50px 0px #06168D0B;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 0px 28px 28px 28px;
+}
+.curses {
+    height: 64px;
+    margin-top: 0px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    font-size: 1.5em;
+    font-weight: 800;
+    line-height: 32px;
+    text-align: left;
+    color: white;
+    padding: 26px 28px 30px 28px;
+}
+h3 {
+    font-size: 1.25em;
+    font-weight: 800;
+    line-height: 25px;
+    color: #13183F;
+}
+.box-txt {
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    color: #83869A;
+    margin: 16px 0px 24px 0px;
+}
+.box-btn {
+    font-size: 1.125em;
+    font-weight: 700;
+    line-height: 28px;
+    color: #F74780;
+    background-color: transparent;
+    border-style: none;
+    padding: 0px;
+    margin-bottom: 32px;
+}
+.box-btn:hover {
+    color: #FFA7C3;
+    cursor: pointer;
+}
+.icon {
+    margin: -28px 0px 24px 0px;
+}
+.footer {
+    height: 120px;
+    background-color: #13183F;
+    margin-top: 80px;
+    padding-top: 0px;
+}
+.last-btn {
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 28px;
+    color: white;
+    width: 140px;
+    height: 48px;
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    border-radius: 28px;
+    border-style: none;
+}
+.last-btn:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url("../img/image-hero-tablet.png");
+        background-repeat: no-repeat;
+        background-size: 750px 750px;
+        background-position: top -80px right -340px;
+    }
+
+    .mobile-hero-img{
+        display: none;
+    }
+    .main {
+        width: 60%;
+    }
+    h1 {
+        margin-top: 99px;
+    }
+    .start-btn {
+        margin-bottom: 170px;
+    }
+    .box {
+        width: 41%;
+        height: 231px;
+        margin-top: 40px;
+        padding: 0px 28px 28px 28px;
+    }
+    .curses {
+        height: 175px;
+        padding-top: 56px;
+    }
+    .footer {
+        padding-top: 0px;
+    }
+}
+@media screen and (min-width: 1100px){
+    body {
+        background-image: url("../img/image-hero-desktop.png");
+        background-size: 991px 936px;
+        background-position: top -170px right -350px;
+    }
+    h1 {
+        font-size: 3.5em;
+        line-height: 70.56px;
+        margin-top: 178px;
+    }
+    .main-txt {
+        font-size: 1.125em;
+        line-height: 28px;
+        margin-bottom: 40px;
+        margin-top: 29px;
+    }
+    .main {
+        width: 45%;
+    }
+    header, .footer, section {
+        padding: 3.5% 11.4% 0% 11.4%;
+    }
+    .start-btn {
+        font-size: 1.125em;
+        line-height: 28px;
+        height: 63px;
+        margin-bottom: 210px;
+    }
+    #design-txt{
+        margin-bottom: 52px;
+
+    }
+    .box {
+        width: 25%;
+        height: 290px;
+        padding: 0px 32px 32px 32px;
+    }
+    .curses {
+        font-size: 2em;
+        line-height: 40px;
+        height: 226px;
+        padding-top: 64px;
+    }
+    h3 {
+        font-size: 1.5em;
+        line-height: 30px;
+    }
+    .box-txt {
+        font-size: 1.125em;
+        line-height: 28px;
+        margin: 24px 0px 24px 0px;
+    }
+    .footer {
+        padding-top: 0px;
+        margin-top: 140px;
+    }
+}
