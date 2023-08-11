@@ -1,6 +1,6 @@
 # Frontend Mentor - Skilled e-learning landing page
 
-This is a solution to the [NSkilled e-learning landing page on Frontend Mentor](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q).
+This is a solution to the [Skilled e-learning landing page on Frontend Mentor](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q).
 Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Overview
